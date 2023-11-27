@@ -1,0 +1,20 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.logo{
+    width: 15%;
+    height: 15%;
+}
+.itemList{
+    display: flex;
+    list-style-type: none;
+}
+.itemList li{
+    margin-right: 50px;
+    cursor: pointer;
+}

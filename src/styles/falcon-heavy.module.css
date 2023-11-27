@@ -1,0 +1,43 @@
+.contentArea{
+    margin-top:200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.content h1, .content h2{
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.content h1{
+    font-weight: 500;
+    font-size: 4rem;
+}
+.content h2{
+    font-weight: 300;
+}
+.content p{
+    width: 50ch;
+    line-height: 30px;
+}
+.mainImg{
+    margin-top: 7%;
+    clip-path: polygon(0 100%, 0 12%, 8% 0, 100% 1%, 100% 90%, 92% 100%);
+    width: 45%;
+    height: 45%;
+}
+.subHeading{
+    width: 25ch;
+}
+@media screen and (max-width:  426px) {
+    .contentArea{
+        padding: 0;
+        display: block;
+    }
+    .mainImg{
+        width: 100%;
+    }
+    .content p{
+        width: 45ch;
+    }
+}
